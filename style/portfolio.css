@@ -88,6 +88,17 @@ nav li a{
   width: 585px;
   height: 356px;
 }
+.btn-primary-contact{
+  color: #FD6E0A;
+  background-color:#FFF8F3;
+  padding: 18px 35px 19px 36px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border:2px solid #FD6E0A;
+  margin: 0px 30px;
+}
+
 /* about style  */
 main{
   max-width: 1140px;
