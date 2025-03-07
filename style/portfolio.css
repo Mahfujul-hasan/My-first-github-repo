@@ -194,3 +194,63 @@ main{
   border: none;
   width: 100%;
 }
+.hide{
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .skills-container, 
+  .resume-container, 
+  .footer,
+  .about-items,
+  nav,
+  .banner,
+  nav>ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .header{
+    background-image: none;
+  }
+  .banner{
+    margin: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .banner-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-profile-pic{
+  width: 100%;
+  }
+  .banner-title{
+    font-size: 50px;
+  }
+  .banner-content{
+    width: 50%;
+  }
+  .banner> .banner-content> .btn-primary{
+    padding: 20px;
+    /* width: 50%; */
+    margin-bottom: 5px;
+  }
+  .btn-primary-contact{
+    margin: 0px;
+    padding: 20px;
+    /* width: 50%; */
+  }
+  .about{
+    padding: 20px;
+  }
+  .footer{
+    padding: 20px;
+  }
+  .footer-column{
+    width: 100%;
+  }
+  .contact input[type="text"], .contact input[type="email"], textarea{
+    width: 85%;
+  }
+
+
+}
